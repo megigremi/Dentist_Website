@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dentist Website</title>
+
+    <!-- link i marre nga font awesome per logon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+        <!-- file css per stilimin   -->
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+     <!-- headeri i cili do te aplikohet ne cdo nderfaqe -->
+
+  <header class="header">
+    <a href="#" class="logo"> <i class="fas fa-tooth"></i>KlinikaMGS </a>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="about.html">Reth nesh</a>
+        <div class="dropdown">
+            <button class="dropbtn"><a href="#services">Shërbimet <i class="fas fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <a href="ortodonci.html">Ortodonci</a>
+                <a href="kirurgji orale.html">Kirurgji Orale</a>
+                <a href="estetikë dentare.html">Estetikë Dentare</a>
+            </div>
+        </div>
+        <a href="stafi.html">Stafi</a>
+        <a href="cmimet.html">Çmimet</a>
+    </nav>
+    <button id="contact-btn"><a href="contact.html" class="btn" > Kontakto </a></button>
+</header>
+
+
+  
+    <!-- mbyllja e headerit -->
+
+    <!-- seksioni home (faqa kryesore) -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Buzëqeshje e Shëndetshme </h3>
+            <p><b>Dentistët më të mirë në vënd gjënden këtu!</b></p>
+               
+            <button id="contact-btn"><a href="contact.html" class="btn" > Rezervo Takimin Tënd </a></button>        
+        </div>
+
+    </section>
+
+    
+
+    <!-- seksioni rreth nesh-->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> Rreth Nesh </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/about1.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Një mikpritje e ngrohtë, profesionalizëm dhe komoditet janë ato çfarë na diferencojnë</h3>
+                <p><b>Staf i kualifikuar dhe tejet i certifikuar bashkëngjitur me raste të panumërta
+                    suksesi</b></p>
+                <p><b><i>Eksperiencë. Komoditet. Cilësi.</i></b></p>
+                
+                <button id="aboutBtn"> <a href="#" class="btn">Lexo me shume</a></button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    
+
+
+    <!-- seksioni mbi sherbimet -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading"> Sherbimet tona</h1>
+
+        <div class="box-container">
+
+            <a href="ortodonci.html">
+                 <div class="box">
+                  <img src="images/icon1.png" alt="">
+                 <h3>Ortodonci</h3>
+                <p>Trajtojmë çdo defekte kockor apo anomali të rritjes me aparae ortodontike fikse apo të lëvizshme.</p>
+               </div>
+            </a>
+
+             <a href="kirurgji_orale.html">
+                 <div class="box">
+                  <img src="images/icon2.png" alt="">
+                 <h3>Kirurgji orale</h3>
+                <p>Të  ghitha rastet e sëmundjeve, defekteve apo demtimeve që perfshijne regjonin oral dhe maxillofacial .</p>
+               </div>
+            </a>
+
+            <a href="estetikë_dentare.html">
+                 <div class="box">
+                  <img src="images/icon3.png" alt="">
+                 <h3>Estetike Dentoare</h3>
+                <p>Ju japim mundsine e një shumëllojshmerie sherbimesh të dentris estetike.</p>
+               </div>
+            </a>
+
+        </div>
+
+    </section>
+
+   
+
+    <!-- seksioni mbi stafin -->
+
+    <section class="team" id="team">
+
+        <h1 class="heading"> Stafi yne</h1>
+
+        <div class="swiper team-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/stafi.jpg" alt="">
+                        <div class="share">
+                            <a href="stafi.html" class="fas fa-tooth">Stafi yne</a>
+                        </div>
+                    </div>        
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    
+
+
+   <!-- footer i cili permbane kontaktet,oraret e sherbimit dhe adresen -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Adresa</h3>
+                <p>Rruga e Elbasanit</p>
+               
+            </div>
+
+            <div class="box">
+                <h3>E-mail</h3>
+                <p>megigremi1@gmail.com </p>
+                <p>rominasina00@gmail.com </p>
+                <p> kaltramuho@gmail.com</p>
+            </div>
+
+            <div class="box">
+                <h3>Na Kontaktoni</h3>
+                <p>+355 694527055</p>
+                <p>+355 675634899</p>
+                <p>+355 686479302</p>
+            </div>
+
+            <div class="box">
+                <h3>Oraret e sherbimit</h3>
+               <p> Hënë- Premte : 8:00 - 21:00 <br>
+                   Shtunë : 9:00 - 15:00<br> 
+                   Diel: Mbyllur <br>
+            </div>
+
+        </div>
+
+        <div class="credit">created by <span>feut</span> | all rights reserved!</div>
+
+    </section>
+
+
+
+<!-- linku per file ne js -->
+   
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    
+    <script src="js/script.js"></script>
+
+</body>
+</html>

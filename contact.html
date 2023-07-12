@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERVICES</title>
+
+    <!-- link i marre nga font awesome per logon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+ 
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+         <!-- file css per stilimin   -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+    <a href="index.html" class="logo"> <i class="fas fa-tooth"></i>KlinikaMGS </a>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">Reth nesh</a>
+        <div class="dropdown">
+             <button class="dropbtn"><a href="#services">Shërbimet <i class="fas fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <a href="ortodonci.html">Ortodonci</a>
+                <a href="kirurgji_orale.html">Kirurgji Orale</a>
+                <a href="estetikë_dentare.html">Estetikë Dentare</a>
+            </div>
+        </div>
+        <a href="stafi.html">Stafi</a>
+        <a href="cmimet.html">Çmimet</a>
+    </nav>
+    <button id="contact-btn"><a href="#" class="btn"> Kontakto </a></button>
+</header>
+
+
+ <section class="contact" id="contact"></section>
+
+    <section id="content3">
+     <h1 class="heading" style="color: white;">Na Kontaktoni</h1>
+</section>
+<section class="contact" id="contact">
+        <form action="">
+
+  <span>Emri juaj:</span>
+  <div class="inputBox" required>
+    <input type="text" placeholder="Emër" pattern="[A-Za-z]+" required>
+    <input type="text" placeholder="mbiemër" pattern="[A-Za-z]+" required>
+  </div>
+
+  <span>E-mail juaj:</span>
+  <input type="email" placeholder="shembull@gmail.com" class="box" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
+
+  <span>Numri juaj:</span>
+  <input type="tel" placeholder="06xxxxxxxx" pattern="[0-9]{10}" class="box" required>
+
+  <span>Data e vizitës:</span>
+  <input type="datetime-local" class="box">
+
+  <span>Gjinia:</span><br>
+  <input type="radio" name="gender" value="male"> Mashkull
+  <input type="radio" name="gender" value="female"> Femër <br>
+
+  <span>Kredencialet (Vendosni shifrat e fundit te id):</span>
+  <input type="password" placeholder="Vendosni Kredencialet" class="box" required>
+
+  <span>File upload:</span>
+  <label for="pdf">PDF File :</label>
+  <input type="file" id="pdf" name="pdf" accept=".pdf"><br><br>
+
+  <input type="submit" value="Prenoto tani" class="btn">
+</form>
+
+
+    
+    </section>
+
+    <!-- contact ends-->
+
+  
+    <!-- footer -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Adresa</h3>
+                <p>Rruga e Elbasanit</p>
+                
+            </div>
+
+            <div class="box">
+                <h3>e-mail</h3>
+                <p>megigremi1@gmail.com </p>
+                <p>rominasina00@gmail.com </p>
+                <p> kaltramuho@gmail.com</p>
+            </div>
+
+            <div class="box">
+                <h3>Na Kontaktoni</h3>
+                <p>+355 694527055</p>
+                <p>+355 675634899</p>
+                <p>+355 686479302</p>
+            </div>
+
+            <div class="box">
+                <h3>Oraret e shërbimit</h3>
+               <p> Hënë- Premte : 8:00 - 21:00 <br>
+                   E Shtunë : 9:00 - 15:00<br> 
+                   E Diel: Mbyllur <br>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="credit">created by <span>feut</span> | all rights reserved!</div>
+
+    </section>
+
+
+
+    <!-- swiper js link  -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!--  js file  -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
